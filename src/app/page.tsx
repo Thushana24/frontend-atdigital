@@ -6,7 +6,7 @@ import TopNavigation from "@/components/TopNavigation";
 const HomePage = () => (
   <div className="h-dvh max-w-screen overflow-x-hidden">
     <TopNavigation />
-    <main className="flex flex-col items-center justify-center overflow-hidden bg-gray-50">
+    <main className="flex flex-col items-center justify-center overflow-hidden">
       {/* image  */}
       <div className="flex w-full flex-col md:relative">
         <img
@@ -16,7 +16,7 @@ const HomePage = () => (
         />
 
         {/* Gradient background container only around text */}
-        <div className="w-full gap-[20px] bg-gradient-to-r from-[#4DCA79] to-[#1CBDDD] px-[40px] py-[24px] pb-[32px] text-white md:absolute md:bottom-20 md:left-10 md:max-w-[622px]">
+        <div className="w-full gap-[20px] bg-gradient-to-r from-[#4DCA79] to-[#1CBDDD] px-[40px] py-[24px] pb-[32px] text-[var(--color-accent2)] md:absolute md:bottom-20 md:left-10 md:max-w-[622px]">
           <h1 className="text-[48px] leading-tight font-bold drop-shadow-lg">
             We Crush Your Competitors, Goals, And Sales Records - Without The
             B.S.
