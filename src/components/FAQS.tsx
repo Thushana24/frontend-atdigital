@@ -13,11 +13,12 @@ const FAQS = () => {
         {/* first container */}
         <div className="flex flex-col gap-[13px] rounded-[7px] bg-[var(--color-accent)] p-[24px]">
           {/* title */}
-          <div className="flex w-full justify-between gap-10 text-[var(--color-primary)] sm:items-center">
-            <h3 className="text-[20px]">
+          <div className="flex w-full items-start justify-between gap-4 text-[var(--color-primary)]">
+            <h3 className="text-[20px] leading-tight">
               Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
             </h3>
-            <Minus className="size-15 sm:size-5" />
+
+            <Minus className="size-6 flex-shrink-0 sm:size-5" />
           </div>
           <p className="text-[18px] text-[var(--color-text-light)]">
             Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id
@@ -25,19 +26,25 @@ const FAQS = () => {
             Sapien massa morbi risus sagittis tortor integer.
           </p>
         </div>
+
         {/* second container */}
-        <div className="flex w-full justify-between gap-4 rounded-[7px] bg-[var(--color-accent)] p-[24px] text-[20px] text-[var(--color-text)] sm:items-center">
-          <h3 className="text-[20px]">
+        {/* Changed: Added items-start for proper alignment, flex-shrink-0 for icon, adjusted gap */}
+        <div className="flex w-full items-start justify-between gap-4 rounded-[7px] bg-[var(--color-accent)] p-[24px] text-[20px] text-[var(--color-text)]">
+          <h3 className="text-[20px] leading-tight">
             Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?
           </h3>
-          <Plus className="size-15 sm:size-5" />
+
+          <Plus className="size-6 flex-shrink-0 sm:size-5" />
         </div>
+
         {/* third container */}
-        <div className="flex w-full justify-between gap-3 rounded-[7px] bg-[var(--color-accent)] p-[24px] text-[var(--color-text)] sm:items-center">
-          <h3 className="text-[20px]">
+
+        <div className="flex w-full items-start justify-between gap-4 rounded-[7px] bg-[var(--color-accent)] p-[24px] text-[var(--color-text)]">
+          <h3 className="text-[20px] leading-tight">
             Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
           </h3>
-          <Plus className="size-15 sm:size-5" />
+
+          <Plus className="size-6 flex-shrink-0 sm:size-5" />
         </div>
       </div>
     </section>
