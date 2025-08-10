@@ -28,7 +28,7 @@ const FAQS = () => {
         </div>
 
         {/* second container */}
-        {/* Changed: Added items-start for proper alignment, flex-shrink-0 for icon, adjusted gap */}
+
         <div className="flex w-full items-start justify-between gap-4 rounded-[7px] bg-[var(--color-accent)] p-[24px] text-[20px] text-[var(--color-text)]">
           <h3 className="text-[20px] leading-tight">
             Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?
@@ -44,7 +44,7 @@ const FAQS = () => {
             Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
           </h3>
 
-          <Plus className="size-6 flex-shrink-0 sm:size-5" />
+          <Plus className="mt-1 size-6 flex-shrink-0 sm:size-5" />
         </div>
       </div>
     </section>

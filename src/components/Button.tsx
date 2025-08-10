@@ -53,7 +53,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
               {loading ? (
                 <div className="flex items-center justify-center space-x-2">
                   <span>{children}</span>
-                  <Loader className="w-4 h-4 animate-spin" />
+                  <Loader className="h-4 w-4 animate-spin" />
                 </div>
               ) : (
                 <span style={{ transform: "none" }}>{children}</span>
